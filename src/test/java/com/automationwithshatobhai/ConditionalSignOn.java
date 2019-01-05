@@ -45,8 +45,6 @@ public class ConditionalSignOn {
 			}
 			i++;
 		}
-		String macPath = System.getProperty("user.home");
-		System.out.println(macPath);
 
 	}
 
