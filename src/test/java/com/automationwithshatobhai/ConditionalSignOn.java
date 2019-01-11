@@ -4,8 +4,13 @@ public class ConditionalSignOn {
 
 	public static void main(String[] args) {
 
+		// WebElement signOnDisplayed = driver.findElement(By.id(#email));
+
 		boolean signOnDisplayed = false;
 
+		// signOnDisplayed - UI locator
+		// if(signOnDisplayed.isDisplayed){obj.sendkey }
+		
 		if (signOnDisplayed == true) {
 			System.out.println("Username sent");
 		} else {
