@@ -1,5 +1,7 @@
 package com.javafordummies;
 
+import static java.lang.System.out;
+
 class Account {
 
 	String name;
@@ -7,10 +9,14 @@ class Account {
 	double balance;
 
 	void display() {
-		System.out.println(name);
-		System.out.println(address);
-		System.out.println(balance);
+		out.println(name);
+		out.println(address);
+		out.println(balance);
+	}
+
+	double genInterest(double percentageRate) {
+		return (balance * percentageRate) / 100.00;
+
 	}
 
 }
-

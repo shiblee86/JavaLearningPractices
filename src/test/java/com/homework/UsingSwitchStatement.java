@@ -40,7 +40,7 @@ public class UsingSwitchStatement {
 		case "first":
 			System.out.println(first);
 			break;
-		case "second":
+		case "Motel":
 			System.out.println(second);
 			break;
 		case "third":
