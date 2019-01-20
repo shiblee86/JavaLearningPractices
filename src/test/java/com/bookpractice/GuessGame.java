@@ -14,7 +14,7 @@ public class GuessGame {
 	 GuessGame obj = new GuessGame ();
 	 GuessGame obj1 = (GuessGame) Class.forName("org.programming.mitra.exercises.Employee").newInstance();
 	 GuessGame obj2 = GuessGame.class.newInstance();
-	 Constructor<GuessGame> constructor = GuessGame.class.getConstructors()P
+	 Constructor<GuessGame> constructor = GuessGame.class.getConstructors();
 	 GuessGame obj3 = constructor.newInstance();
 	}
 	
