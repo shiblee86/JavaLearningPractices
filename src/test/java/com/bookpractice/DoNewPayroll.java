@@ -17,7 +17,7 @@ public class DoNewPayroll {
 		pt.setName("Stevie");
 		pt.setJobTitle("Driver");
 		pt.setHourlyRate(7.53);
-		pt.cutCheck(pt.findPaymentAmount(10));
+		pt.cutCheck(pt.findPaymentAmount(10 ));
 
 	}
 
