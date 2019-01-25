@@ -1,21 +1,50 @@
 package com.bookpractice;
 
-import static java.lang.System.out;
-
 class Account {
 
-	String name;
-	String address;
-	double balance;
+	private String name;
+	private String address;
+	private double balance;
+	private double interestRate;
 
-	void display() {
-		out.println(name);
-		out.println(address);
-		out.println(balance);
+	public void setName(String n) {
+		this.name = n;
 	}
 
-	double genInterest(double percentageRate) {
-		return (balance * percentageRate) / 100.00;
+	public String getName() {
+		return name;
+	}
+
+	public void setAddress(String a) {
+		this.address = a;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setBalance(double b) {
+		this.balance = b;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	/*
+	 * void display() { out.println(name); out.println(address);
+	 * out.println(balance); }
+	 */
+	public void setInterest(double i) {
+		this.interestRate = i;
+	}
+
+	public double getInterestRate() {
+		return interestRate;
+	}
+
+	double getInterestAmount() {
+		return (balance * interestRate) / 100.00;
 
 	}
 

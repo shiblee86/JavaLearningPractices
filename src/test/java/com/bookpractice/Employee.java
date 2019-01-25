@@ -23,7 +23,7 @@ class Employee {
 		return jobTitle;
 	}
 
-	void cutCheck(double amountPaid) {
+	public void cutCheck(double amountPaid) {
 		out.printf("Pay to the name of %s", name);
 		out.printf("(%s) ***$", jobTitle);
 		out.printf("%, .2f\n", amountPaid);

@@ -12,7 +12,7 @@ public class DoPayroll {
 
 		anEmployee.setName(aScanner.nextLine());
 		anEmployee.setJobTitle(aScanner.nextLine());
-		anEmployee.cutCheck(aScanner.nextDouble());
+		anEmployee.(aScanner.nextDouble());
 		aScanner.nextLine();
 	}
 
