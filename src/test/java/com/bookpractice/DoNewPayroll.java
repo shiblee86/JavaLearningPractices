@@ -6,6 +6,7 @@ public class DoNewPayroll {
 
 		FullTimeEmployee ft = new FullTimeEmployee();
 		PartTimeEmployee pt = new PartTimeEmployee();
+		PartTimeEmployeeWithOvertime pto = new PartTimeEmployeeWithOvertime();
 
 		ft.setName("Barry Burd");
 		ft.setJobTitle("CEO");
@@ -17,7 +18,12 @@ public class DoNewPayroll {
 		pt.setName("Stevie");
 		pt.setJobTitle("Driver");
 		pt.setHourlyRate(7.53);
-		pt.cutCheck(pt.findPaymentAmount(10 ));
+		pt.cutCheck(pt.findPaymentAmount(50));
+
+		pto.setName("Chris");
+		pto.setJobTitle("Driver");
+		pto.setHourlyRate(7.53);
+		pto.cutCheck(pto.findPaymentAmount(50));
 
 	}
 
