@@ -1,6 +1,8 @@
 package com.bookpractice;
 
 public class Temperature {
+	
+	/*Constructors only work on instance variable NOT with Static variable. In order to use static variable, we need to use static initializer.*/
 
 	private double number;
 
