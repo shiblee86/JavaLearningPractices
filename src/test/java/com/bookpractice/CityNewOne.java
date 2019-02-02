@@ -1,16 +1,12 @@
 package com.bookpractice;
 
-class CityNew {
-
+public class CityNewOne {
+	
 	int population = 2232;
-
-//	@Override
-//	public String toString() {
-//		return "" + population;
-//	}
 
 	@Override
 	public String toString() {
 		return String.valueOf(population);
 	}
+
 }
